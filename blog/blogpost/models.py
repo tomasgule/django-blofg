@@ -9,3 +9,4 @@ class Blogpost(models.Model):
     title = models.CharField(max_length=50)
     content = models.CharField(max_length=1000)
     created_at = models.DateField(auto_now=True)
+    post_image = models.ImageField()
